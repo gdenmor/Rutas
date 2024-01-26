@@ -1,0 +1,29 @@
+#navbarNav{
+    margin-left: 30%;
+}
+
+.navbar-custom {
+    color: white;
+    background-color: #75C749;
+}
+
+h3,
+p {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+main{
+    padding: 0;
+    height: 100%;
+}
+
+#miCarrusel div{
+    width: 71.5%;
+    margin-left: 16%
+}
+
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
+

@@ -1,0 +1,27 @@
+<div class="modal fade" id="miModal" tabindex="-1" role="dialog" aria-labelledby="miModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="miModalLabel">Iniciar Sesión</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                {{ form_errors(registrationForm) }}
+
+                {{ form_start(registrationForm) }}
+                    {{ form_row(registrationForm.email) }}
+                    {{ form_row(registrationForm.plainPassword, {
+                        label: 'Password'
+                    }) }}
+                    {{ form_row(registrationForm.telefono) }}
+                    {{ form_row(registrationForm.apellido1) }}
+                    {{ form_row(registrationForm.apellido2) }}
+                    {{ form_row(registrationForm.username) }}
+                    <button type="submit" class="btn">Register</button>
+                    {{ form_end(registrationForm) }}
+            </div>
+        </div>
+    </div></div>
+
